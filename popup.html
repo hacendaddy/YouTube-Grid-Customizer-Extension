@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="setting">
+      <label for="videoWidth">Video Width (px):</label>
+      <input type="range" id="videoWidth" min="200" max="500" step="10" />
+      <div class="value-display"><span id="videoWidthValue">300</span>px</div>
+    </div>
+
+    <div class="setting">
+      <label for="columnsCount">Columns:</label>
+      <input type="range" id="columnsCount" min="1" max="6" step="1" />
+      <div class="value-display"><span id="columnsValue">3</span></div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
